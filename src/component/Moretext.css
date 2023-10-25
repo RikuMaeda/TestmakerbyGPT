@@ -1,0 +1,85 @@
+/* グローバルスタイルなどはここに記述 */
+
+.moreText {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.moreTitle {
+    background-color: rgb(183, 179, 179);
+    color: white;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.moreTitle h2 {
+    margin: 0;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+.morePostText {
+    padding: 10px;
+}
+
+.morePostText p {
+    margin: 0;
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.like-button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .like-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .like-button.liked {
+    background-color: #e74c3c;
+    transform: scale(1.1);
+  }
+  
+  .like-count {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .commentPost {
+    display: flex;
+    justify-content: center; /* 横方向中央揃え */
+    align-items: center; /* 垂直方向中央揃え */
+    flex-direction: column;
+  }
+
+  .allMoreText h3 {
+    text-align: center;
+  }
+
+  .commentTextArea { 
+    max-width: 950px;
+  }
+
+  .commentSubmit {
+    margin-top: 10px;
+    padding: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
